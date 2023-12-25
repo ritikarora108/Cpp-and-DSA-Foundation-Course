@@ -1,1 +1,1 @@
-Codes of each topic and algorihtm of C++ and DSA foundation course.
+Codes of each topic and algorithm of C++ and DSA foundation course.
