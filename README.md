@@ -6,7 +6,7 @@
 using namespace std;
 int main()
 {
-cout<<"Codes of each lecture is present in this repo sequentially. ✌️"<<endl;
+cout<<"Codes of each lecture is present in this repo ✌️"<<endl;
 }
 ```
 
