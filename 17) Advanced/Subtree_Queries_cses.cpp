@@ -93,37 +93,13 @@ int main()
     vector<int> rightPtr(n, -1);
     segmentTree st(sz);
     st.build(0, 0, sz - 1, arr, values);
-    // for (auto i : arr)
-    // {
-    //     cout << i << " ";
-    // }
-    // cout << endl;
+
     for (int i = 0; i < sz; i++)
     {
         if (leftPtr[arr[i]] == -1)
             leftPtr[arr[i]] = i;
         rightPtr[arr[i]] = i;
     }
-    // for (auto i : arr)
-    // {
-    //     cout << i << " ";
-    // }
-    // cout << endl;
-    // for (auto i : leftPtr)
-    // {
-    //     cout << i << " ";
-    // }
-    // cout << endl;
-    // for (auto i : rightPtr)
-    // {
-    //     cout << i << " ";
-    // }
-    // cout << endl;
-    // for (auto i : segTree)
-    // {
-    //     cout << i << " ";
-    // }
-    // cout << endl;
 
     while (q--)
     {
