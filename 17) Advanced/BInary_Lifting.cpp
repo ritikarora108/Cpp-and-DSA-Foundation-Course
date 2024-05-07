@@ -13,7 +13,7 @@ void dfs(int node, int par, vector<vector<int>> &parent, vector<list<int>> &tree
 }
 void kthParent_BinaryLifting(vector<list<int>> &tree, int n)
 {
-    int maxLevel = log2(n);
+    int maxLevel = log2(n) + 1;
     vector<vector<int>> parent(n + 1, vector<int>(maxLevel + 1, -1));
     dfs(1, -1, parent, tree);
     // 2^0th parent is already available
