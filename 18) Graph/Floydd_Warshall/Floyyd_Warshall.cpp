@@ -30,6 +30,16 @@ int main()
             }
         }
     }
+
+    // for (int i = 0; i < n;i++)
+    // {
+    //     if(dist[i][i]<0)
+    //     {
+    //         cout << "Negative cycle exists" << endl;
+    //         break;
+    //     }
+    // }
+
     for (int i = 0; i < n; i++)
     {
         for (int j = 0; j < n; j++)
